@@ -1,1 +1,1 @@
-# 5bars-painting-robot
+# 5bar-parallel-painting-robot
