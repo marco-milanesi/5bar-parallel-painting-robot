@@ -1,4 +1,4 @@
-function config = Plot3D_2nd(Q,L,fig,x,y)
+function [config, gamma] = Plot3D_2nd(Q,L,fig,x,y)
 
 figure(fig)
 h=L(1);

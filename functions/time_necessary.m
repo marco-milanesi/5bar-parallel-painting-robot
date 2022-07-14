@@ -1,5 +1,9 @@
-function t = time_necessary(S0,S1,v)
-    s = abs(S1-S0);
-    t=s/v;
+function t = time_necessary(S,v)
+t=0;
+for i=1:size(S,1)-1
+    ds = norm(S(i,:)-S(i+1,:));
+    t=t+ds/v;
+end
+
 end
 

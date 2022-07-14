@@ -1,4 +1,4 @@
-function config = Plot3D_1st(Q,L,fig,x,y)
+function [config, theta] = Plot3D_1st(Q,L,fig,x,y)
 
 figure(fig)
 h=L(1);
