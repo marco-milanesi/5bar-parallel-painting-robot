@@ -3,7 +3,7 @@ function Q = inverse_kinematics(S,L,last_guess)
 Q=zeros(2,1);
 x=S(1);
 y=S(2);
-% z=S(3);
+z=S(3);
 
 h=L(1);
 l0=L(2);
@@ -20,6 +20,7 @@ F = @(x) [f(x(1),x(2)); g(x(1),x(2))];
 
 Q(1) = zm(1);
 Q(2) = zm(2);
+Q(3) = z;
 
 end
 
