@@ -1,6 +1,6 @@
 function Q = inverse_kinematics(S,L,last_guess)
 
-Q=zeros(2,1);
+Q=zeros(3,1);
 x=S(1);
 y=S(2);
 z=S(3);

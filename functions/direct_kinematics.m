@@ -1,5 +1,6 @@
 function S = direct_kinematics(Q,L,last_guess)
 
+% Definizione variabili simboliche
 h=L(1);
 l0=L(2);
 l1=L(3);
