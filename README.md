@@ -5,8 +5,8 @@
 
 # 5bar-parallel-painting-robot
 
-*Automation of a two parts automotive manufacturing process* <br>
-*Designing / drawing of customized grippers*
+*Analysis of a Pentalateral Manipulator for Painting:* <br>
+*Trajectory planning, Kinematic and Dynamic Analysis*
 
 <br>
 
@@ -14,9 +14,10 @@
 
 <br>
        
-| *XYZ Trajectory* | *XY View*|
-|:----------------:|:------------------------------------------:|
-|       ![xyz]      |       ![xy]           |
+| *XYZ Trajectory* | *XY View*| *YZ View*|
+|:----------------:|:----------:|:-----------:|
+|  <video src="https://user-images.githubusercontent.com/47824890/187631797-1a738715-1119-4216-8805-8a6f92ef8f9f.mp4">   |  <video src="https://user-images.githubusercontent.com/47824890/187631532-8a8dc08b-b749-456f-8f86-980ea90ce518.mp4">     |   <video src="https://user-images.githubusercontent.com/47824890/187631613-2deb5d8e-5c20-4799-85f5-4c3bb26db94b.mp4">    |
+
 
 
 <br>
@@ -29,11 +30,17 @@
 
 [License]: LICENSE
 
-<!----------------------------------{ Images }--------------------------------->
 
-[xyz]: document/video/sm_five_bar_robot.avi
-[xy]: document/video/sm_five_bar_robot_xy.avi
-[yz]: document/video/sm_five_bar_robot_yz.avi
+
+
+
+
+
+
+
+
+
+
 
 
 <!---------------------------------{ Badges }---------------------------------->
